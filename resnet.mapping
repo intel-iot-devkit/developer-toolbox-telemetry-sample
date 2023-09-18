@@ -1,0 +1,1523 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="input_1" output_port_id="input_1:0" />
+		<IR name="input_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_1" output_port_id="input_1:0" />
+		<IR name="input_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/input/_0" output_port_id="input_1:0" />
+		<IR name="input_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_1" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="input_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_1" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="input_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/input/_0" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="input_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/pool1_pad/Pad" output_port_id="StatefulPartitionedCall/resnet50/pool1_pad/Pad:0" />
+		<IR name="StatefulPartitionedCall/resnet50/pool1_pad/Pad" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/pool1_pad/Pad" output_port_id="StatefulPartitionedCall/resnet50/pool1_pad/Pad:0" />
+		<IR name="StatefulPartitionedCall/resnet50/pool1_pad/Pad" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/pool1_pool/MaxPool" output_port_id="StatefulPartitionedCall/resnet50/pool1_pool/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/resnet50/pool1_pool/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/pool1_pool/MaxPool" output_port_id="StatefulPartitionedCall/resnet50/pool1_pool/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/resnet50/pool1_pool/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_0_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_0_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_0_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_0_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_0_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_0_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_0_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_0_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_0_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block1_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block1_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block1_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block2_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block2_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block2_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv2_block3_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv2_block3_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv2_block3_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_0_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_0_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_0_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_0_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_0_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_0_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_0_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_0_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_0_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block1_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block1_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block1_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block2_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block2_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block2_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block3_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block3_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block3_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv3_block4_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv3_block4_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv3_block4_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_0_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_0_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_0_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_0_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_0_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_0_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_0_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_0_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_0_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block1_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block1_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block1_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block2_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block2_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block2_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block3_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block3_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block3_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block4_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block4_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block4_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block5_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block5_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block5_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv4_block6_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv4_block6_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv4_block6_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_0_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_0_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_0_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_0_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_0_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_0_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_0_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_0_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_0_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block1_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block1_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block1_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block2_out/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block2_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block2_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_1_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_2_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_3_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_3_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_3_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_3_conv/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/conv5_block3_add/add" output_port_id="StatefulPartitionedCall/resnet50/conv5_block3_add/add:0" />
+		<IR name="StatefulPartitionedCall/resnet50/conv5_block3_add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/avg_pool/Mean" output_port_id="StatefulPartitionedCall/resnet50/avg_pool/Mean:0" />
+		<IR name="StatefulPartitionedCall/resnet50/avg_pool/Mean" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/avg_pool/Mean" output_port_id="StatefulPartitionedCall/resnet50/avg_pool/Mean:0" />
+		<IR name="StatefulPartitionedCall/resnet50/avg_pool/Mean" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/predictions/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/MatMul/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/predictions/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/MatMul/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/MatMul" output_port_id="StatefulPartitionedCall/resnet50/predictions/MatMul:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/MatMul" output_port_id="StatefulPartitionedCall/resnet50/predictions/MatMul:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/predictions/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/resnet50/predictions/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/BiasAdd/Add" output_port_id="StatefulPartitionedCall/resnet50/predictions/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/BiasAdd" output_port_id="StatefulPartitionedCall/resnet50/predictions/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="StatefulPartitionedCall/resnet50/predictions/Softmax:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="StatefulPartitionedCall/resnet50/predictions/Softmax:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="StatefulPartitionedCall/resnet50/predictions/Softmax:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_321" output_port_id="StatefulPartitionedCall/resnet50/predictions/Softmax:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="StatefulPartitionedCall/resnet50/predictions/Softmax:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_321" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="Func/StatefulPartitionedCall/output/_321:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="Func/StatefulPartitionedCall/output/_321:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="Func/StatefulPartitionedCall/output/_321:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_321" output_port_id="Func/StatefulPartitionedCall/output/_321:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="Func/StatefulPartitionedCall/output/_321:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_321" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/resnet50/predictions/Softmax" output_port_id="1" />
+	</map>
+</mapping>
