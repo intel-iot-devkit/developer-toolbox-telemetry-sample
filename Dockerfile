@@ -8,11 +8,11 @@ WORKDIR /app
 RUN mkdir model
 
 # Copy model files
-COPY benchmark/resnet.mapping model/       
-COPY benchmark/resnet.xml model/
-COPY benchmark/resnet.bin model/
-COPY benchmark/telemetry_client.py .
-COPY benchmark/benchmark.py /usr/local/lib/python3.8/dist-packages/openvino/tools/benchmark/benchmark.py
+COPY developer-toolbox-telemetry-sample/resnet.mapping model/       
+COPY developer-toolbox-telemetry-sample/resnet.xml model/
+COPY developer-toolbox-telemetry-sample/resnet.bin model/
+COPY developer-toolbox-telemetry-sample/telemetry_client.py .
+COPY developer-toolbox-telemetry-sample/benchmark.py /usr/local/lib/python3.8/dist-packages/openvino/tools/benchmark/benchmark.py
 
 
 # Copy the .whl file and benchmark.py (renamed telemetry_client.py) to their respective locations
@@ -23,11 +23,11 @@ RUN pip install /tmp/telemetrysender-1.1.0-py3-none-any.whl
 
 # Copy the go.sh and telemetry.config files
 COPY benchmark/go.sh .
+RUN chmod +x /app/go.sh
 COPY telemetry/fps-instrumentation/telemetry.config /etc/
 
 # Set the default environment variable for the go.sh script
 ENV ARGUMENT_VALUE benchmark
-
 # Start the application or perform other actions
 ENTRYPOINT ["/app/go.sh", "$ARGUMENT_VALUE"]
 
