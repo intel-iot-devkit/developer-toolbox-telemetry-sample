@@ -22,7 +22,7 @@ COPY telemetry/fps-instrumentation/telemetrysender-1.1.0-py3-none-any.whl /tmp/t
 RUN pip install /tmp/telemetrysender-1.1.0-py3-none-any.whl
 
 # Copy the go.sh and telemetry.config files
-COPY benchmark/go.sh .
+COPY developer-toolbox-telemetry-sample/go.sh .
 RUN chmod +x /app/go.sh
 COPY telemetry/fps-instrumentation/telemetry.config /etc/
 
