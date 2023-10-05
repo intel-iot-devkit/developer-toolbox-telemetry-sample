@@ -3,6 +3,7 @@
 
 
 FROM docker.io/openvino/ubuntu20_dev:2022.3.0
+USER root
 
 WORKDIR /app
 RUN mkdir model
