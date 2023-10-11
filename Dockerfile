@@ -9,7 +9,6 @@ WORKDIR /app
 RUN mkdir model
 
 # Copy model files
-COPY developer-toolbox-telemetry-sample/resnet.mapping model/       
 COPY developer-toolbox-telemetry-sample/resnet.xml model/
 COPY developer-toolbox-telemetry-sample/resnet.bin model/
 COPY developer-toolbox-telemetry-sample/telemetry_client.py .
